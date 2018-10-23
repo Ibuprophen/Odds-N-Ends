@@ -1,0 +1,51 @@
+---- Oct 23, 2018 2:27:52 PM ----
+
+10-23 14:28:00.980  1000  1993 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.aor.droidedit.pro/com.aor.droidedit.DroidEditProActivity} from uid 10083 on display 0
+
+10-23 14:28:01.007  1000  4652 I ActivityManager: Start proc 975:com.aor.droidedit.pro/u0a114 for activity com.aor.droidedit.pro/com.aor.droidedit.DroidEditProActivity
+
+10-23 14:28:01.062   975   975 W System  : ClassLoader referenced unknown path: /data/app/com.aor.droidedit.pro-1/lib/arm
+
+10-23 14:28:01.326   975   975 D scoop   : hookUncaughtException (com.aor.droidedit.pro): Hooked class com.crashlytics.android.v after 0 loops
+
+10-23 14:28:01.646  1000  1052 I ActivityManager: Displayed com.aor.droidedit.pro/com.aor.droidedit.DroidEditProActivity: +650ms
+
+10-23 14:28:06.884  1000  2022 I ActivityManager: START u0 {cmp=com.aor.droidedit.pro/com.aor.droidedit.custom.HelpPageViewer} from uid 10114 on display 0
+
+10-23 14:28:07.022   975   975 D scoop   : hookUncaughtException (com.aor.droidedit.pro): Hooked class com.crashlytics.android.v after 0 loops
+
+10-23 14:28:07.503  1000  1052 I ActivityManager: Displayed com.aor.droidedit.pro/com.aor.droidedit.custom.HelpPageViewer: +588ms
+
+10-23 14:28:12.446   402   402 F DEBUG   : pid: 975, tid: 975, name: r.droidedit.pro  >>> com.aor.droidedit.pro <<<
+
+10-23 14:28:13.432  1000  1116 W ActivityManager:   Force finishing activity com.aor.droidedit.pro/com.aor.droidedit.custom.HelpPageViewer
+
+10-23 14:28:13.488  1000  1348 W InputDispatcher: channel '34dbd11 com.aor.droidedit.pro/com.aor.droidedit.DroidEditProActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+
+10-23 14:28:13.488  1000  1348 E InputDispatcher: channel '34dbd11 com.aor.droidedit.pro/com.aor.droidedit.DroidEditProActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+
+10-23 14:28:13.489  1000  1348 W InputDispatcher: channel '86c89e5 com.aor.droidedit.pro/com.aor.droidedit.custom.HelpPageViewer (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+
+10-23 14:28:13.489  1000  1348 E InputDispatcher: channel '86c89e5 com.aor.droidedit.pro/com.aor.droidedit.custom.HelpPageViewer (server)' ~ Channel is unrecoverably broken and will be disposed!
+
+10-23 14:28:13.496  1000  1043 I WindowState: WIN DEATH: Window{86c89e5 u0 com.aor.droidedit.pro/com.aor.droidedit.custom.HelpPageViewer}
+
+10-23 14:28:13.496  1000  1043 W InputDispatcher: Attempted to unregister already unregistered input channel '86c89e5 com.aor.droidedit.pro/com.aor.droidedit.custom.HelpPageViewer (server)'
+
+10-23 14:28:13.501  1000  1042 I WindowState: WIN DEATH: Window{34dbd11 u0 com.aor.droidedit.pro/com.aor.droidedit.DroidEditProActivity}
+
+10-23 14:28:13.501  1000  1042 W InputDispatcher: Attempted to unregister already unregistered input channel '34dbd11 com.aor.droidedit.pro/com.aor.droidedit.DroidEditProActivity (server)'
+
+10-23 14:28:13.514  1000  1331 I ActivityManager: Process com.aor.droidedit.pro (pid 975) has died
+
+10-23 14:28:13.526  1000  1331 I ActivityManager: Start proc 1120:com.aor.droidedit.pro/u0a114 for activity com.aor.droidedit.pro/com.aor.droidedit.DroidEditProActivity
+
+10-23 14:28:13.569  1120  1120 W System  : ClassLoader referenced unknown path: /data/app/com.aor.droidedit.pro-1/lib/arm
+
+10-23 14:28:13.854  1120  1120 D scoop   : hookUncaughtException (com.aor.droidedit.pro): Hooked class com.crashlytics.android.v after 0 loops
+
+10-23 14:28:14.058  1000  1052 I ActivityManager: Displayed com.aor.droidedit.pro/com.aor.droidedit.DroidEditProActivity: +543ms
+
+10-23 14:28:21.695  1000  2418 I ActivityManager: Killing 1120:com.aor.droidedit.pro/u0a114 (adj 9): remove task
+
+---- Oct 23, 2018 2:28:27 PM ----
